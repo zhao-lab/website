@@ -1,0 +1,203 @@
+﻿@article{chen2017evaluation,
+  title={Evaluation of Automated Vehicles Encountering Pedestrians at Unsignalized Crossings},
+  author={Chen, Baiming and Zhao, Ding and Peng, Huei},
+  journal={arXiv preprint arXiv:1702.00785},
+  year={2017}
+}
+
+@article{zhao2010design,
+  title={The Design and Analysis of Integrated-wheel Drive and Electric Steering Vehicle Travelling Mechanism [J]},
+  author={ZHAO, Ding and CUI, Wen-feng and SUN, Hai-yang},
+  journal={Science Technology and Engineering},
+  volume={19},
+  pages={019},
+  year={2010}
+}
+
+@article{huang2016accelerated,
+  title={Accelerated Evaluation of Automated Vehicles using Piecewise Mixture Distribution Models},
+  author={Huang, Zhiyuan and Zhao, Ding and Lam, Henry and LeBlanc, David J and Peng, Huei},
+  journal={arXiv preprint arXiv:1610.09450},
+  year={2016}
+}
+
+@article{huang1001evaluation,
+  title={Evaluation of Automated Vehicles in the Frontal Cut-in Scenario-an Enhanced Approach using Piecewise Mixture Models},
+  author={Huang, Zhiyuan and Zhao, Ding and Lam, Henry and LeBlanc, David J and Peng, Huei},
+  journal={Ann Arbor},
+  volume={1001},
+  pages={48109}
+}
+
+@article{huang2016empirical,
+  title={Empirical Study of DSRC Performance Based on Safety Pilot Model Deployment Data},
+  author={Huang, Xianan and Zhao, Ding and Peng, Huei},
+  journal={arXiv preprint arXiv:1606.08365},
+  year={2016}
+}
+
+@article{jia2017towards,
+  title={Towards Secure and Safe Appified Automated Vehicles},
+  author={Jia, Yunhan Jack and Zhao, Ding and Chen, Qi Alfred and Mao, Z Morley},
+  journal={arXiv preprint arXiv:1702.06827},
+  year={2017}
+}
+
+@article{jing2010matching,
+  title={Matching of velocity threshold for vehicle fuel saving driving control strategy},
+  author={Jing, LI and Ding, ZHAO and Lin, ZHU and Jun-jie, LIU},
+  journal={Journal of Jilin University (Engineering and Technology Edition)},
+  volume={2},
+  pages={005},
+  year={2010}
+}
+
+@article{nobukawa2016gap,
+  title={Gap Acceptance During Lane Changes by Large-Truck Drivers—An Image-Based Analysis},
+  author={Nobukawa, Kazutoshi and Bao, Shan and LeBlanc, David J and Zhao, Ding and Peng, Huei and Pan, Christopher S},
+  journal={IEEE transactions on intelligent transportation systems},
+  volume={17},
+  number={3},
+  pages={772--781},
+  year={2016},
+  publisher={IEEE}
+}
+
+@inproceedings{shen2016enhancement,
+  title={Enhancement of low-cost GNSS localization in connected vehicle networks using Rao-Blackwellized particle filters},
+  author={Shen, Macheng and Zhao, Ding and Sun, Jing},
+  booktitle={Intelligent Transportation Systems (ITSC), 2016 IEEE 19th International Conference on},
+  pages={834--840},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{shenimpact,
+  title={The Impact of Road Configuration in V2V-based Cooperative Localization},
+  author={Shen, Macheng and Zhao, Ding and Sun, Jing}
+}
+
+@article{shen2017improving,
+  title={Improving Localization Accuracy in Connected Vehicle Networks Using Rao-Blackwellized Particle Filters: Theory, Simulations, and Experiments},
+  author={Shen, Macheng and Zhao, Ding and Sun, Jing and Peng, Huei},
+  journal={arXiv preprint arXiv:1702.05792},
+  year={2017}
+}
+
+@article{wang2017analysis,
+  title={Analysis of Unprotected Intersection Left-Turn Conflicts based on Naturalistic Driving Data},
+  author={Wang, Xinpeng and Zhao, Ding and Peng, Huei and LeBlanc, David J},
+  journal={arXiv preprint arXiv:1702.00135},
+  year={2017}
+}
+
+@article{wang2017evaluation,
+  title={Evaluation of Lane Departure Correction Systems Using a Stochastic Driver Model},
+  author={Wang, Wenshuo and Zhao, Ding},
+  journal={arXiv preprint arXiv:1702.05779},
+  year={2017}
+}
+
+@article{wang2017learning,
+  title={A Learning-Based Approach for Lane Departure Warning Systems with a Personalized Driver Model},
+  author={Wang, Wenshuo and Zhao, Ding and Xi, Junqiang and Han, Wei},
+  journal={arXiv preprint arXiv:1702.01228},
+  year={2017}
+}
+
+@inproceedings{zhao2010research,
+  title={Research on the platform design and control system for the wheel-side steering-driving coordination vehicle},
+  author={Zhao, Ding and Sun, Haiyang and Cui, Wenfeng},
+  booktitle={Mechatronics and Automation (ICMA), 2010 International Conference on},
+  pages={1276--1281},
+  year={2010},
+  organization={IEEE}
+}
+
+@article{zhao2014analysis,
+  title={Analysis of mandatory and discretionary lane change behaviors for heavy trucks},
+  author={Zhao, Ding and Peng, Huei and Nobukawa, Kazutoshi and Bao, Shan and LeBlanc, David J and Pan, Christopher S},
+  journal={Ann Arbor},
+  volume={1001},
+  pages={48109--2133},
+  year={2014}
+}
+
+@inproceedings{zhao2015accelerated,
+  title={Accelerated Evaluation of Automated Vehicles in Lane Change Scenarios},
+  author={Zhao, Ding and Peng, Huei and Lam, Henry and Bao, Shan and Nobukawa, Kazutoshi and LeBlanc, David J and Pan, Christopher S},
+  booktitle={ASME 2015 Dynamic Systems and Control Conference},
+  pages={V001T17A002--V001T17A002},
+  year={2015},
+  organization={American Society of Mechanical Engineers}
+}
+
+@article{zhao2016accelerated,
+  title={Accelerated evaluation of automated vehicles safety in lane-change scenarios based on importance sampling techniques},
+  author={Zhao, Ding and Lam, Henry and Peng, Huei and Bao, Shan and LeBlanc, David J and Nobukawa, Kazutoshi and Pan, Christopher S},
+  journal={IEEE transactions on intelligent transportation systems},
+  year={2016},
+  publisher={IEEE}
+}
+
+@inproceedings{zhao2016accelerated,
+  title={Accelerated evaluation of automated vehicles using extracted naturalistic driving data},
+  author={Zhao, D and Peng, H and Bao, S and Nobukawa, K and LeBlanc, DJ and Pan, CS},
+  booktitle={The Dynamics of Vehicles on Roads and Tracks: Proceedings of the 24th Symposium of the International Association for Vehicle System Dynamics (IAVSD 2015), Graz, Austria, 17-21 August 2015},
+  pages={287},
+  year={2016},
+  organization={CRC Press}
+}
+
+@article{zhao2016accelerated,
+  title={Accelerated Evaluation of Automated Vehicles in Car-Following Maneuvers},
+  author={Zhao, Ding and Huang, Xianan and Peng, Huei and Lam, Henry and LeBlanc, David J},
+  journal={arXiv preprint arXiv:1607.02687},
+  year={2016}
+}
+
+@article{zhao2017evaluation,
+  title={Evaluation of A Semi-Autonomous Lane Departure Correction System Using Naturalistic Driving Data},
+  author={Zhao, Ding and Wang, Wenshuo and LeBlanc, David J},
+  journal={arXiv preprint arXiv:1702.06557},
+  year={2017}
+}
+
+@phdthesis{zhao2016accelerated,
+  title={Accelerated Evaluation of Automated Vehicles},
+  author={Zhao, Ding},
+  year={2016},
+  school={The University of Michigan}
+}
+
+@article{zhao2017evaluation,
+  title={Evaluation of A Semi-Autonomous Lane Departure Correction System Using Naturalistic Driving Data},
+  author={Zhao, Ding and Wang, Wenshuo and LeBlanc, David J},
+  journal={arXiv preprint arXiv:1702.06557},
+  year={2017}
+}
+
+@article{zhuang2016optimal,
+  title={Optimal design of three-planetary-gear power-split hybrid powertrains},
+  author={Zhuang, W and Zhang, X and Zhao, D and Peng, H and Wang, L},
+  journal={International Journal of Automotive Technology},
+  volume={17},
+  number={2},
+  pages={299--309},
+  year={2016},
+  publisher={Springer}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
