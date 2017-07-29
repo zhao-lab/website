@@ -1,0 +1,1 @@
+When git clone to linux on CAEN lab, I should use ssh and choose the link for ssh "looks like git@github.com:zhao-ding/website.git" instead of http link like "https://github.com/zhao-ding/website.git".
