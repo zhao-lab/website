@@ -4097,7 +4097,7 @@ ol.journal li:before
 
 ol.conference
 {
-	counter-reset: item 20;
+	counter-reset: item 21;
 	padding-left: 1.25em;
 }
 ol.conference li
