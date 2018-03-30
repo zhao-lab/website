@@ -4135,3 +4135,9 @@ ol.patent li:before
 	width: 2.5em;
 	margin-left: -2.5em;
 }
+
+
+mark {
+    background-color: yellow;
+    color: red;
+}
