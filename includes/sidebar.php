@@ -1,47 +1,47 @@
-<!-- Sidebar -->
-<div id="sidebar">
-  <div class="inner">
-
-    <!-- Search -->
-    <section id="search" class="alt">
-      <form method="post" action="#">
-        <input type="text" name="query" id="query" placeholder="Search" />
-      </form>
-    </section>
-
-    <!-- Menu -->
-    <nav id="menu">
-      <header class="major">
-        <h2>Menu</h2>
-      </header>
-      <ul>
-        <li><a href="index.html">Homepage</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="publications.html">Publication</a></li>
-        <li><a href="talk.html">Talk</a></li>
-        <li><a href="student.html">Student</a></li>
-        <li><a href="teaching.html">Teaching</a></li>
-        <li><a href="calendar.html">Calendar</a></li>
-      </ul>
-    </nav>
-
-    <!-- Section -->
-    <section>
-      <header class="major">
-        <h2>Get in touch</h2>
-      </header>
-      <p>The best way to reach me, generally, is via email. During the day, I am usually in my office.</p>
-      <ul class="contact">
-        <li class="fa-envelope-o">dingzhao@cmu.edu</li>
-        <li class="fa-phone">412-268-3348</li>
-        <li class="fa-map-marker">5000 Forbes Avenue<br /> Scaife Hall 315<br /> Pittsburgh, PA 15213</li>
-      </ul>
-    </section>
-
-    <!-- Footer -->
-    <footer id="footer">
-      <p class="copyright">&copy; Ding Zhao. All rights reserved. Design: <a href="http://html5up.net">HTML5 UP</a>.</p>
-    </footer>
-
-  </div>
-</div>
+echo "<!-- Sidebar -->\n";
+echo "<div id=\"sidebar\">\n";
+echo "  <div class=\"inner\">\n";
+echo "\n";
+echo "    <!-- Search -->\n";
+echo "    <section id=\"search\" class=\"alt\">\n";
+echo "      <form method=\"post\" action=\"#\">\n";
+echo "        <input type=\"text\" name=\"query\" id=\"query\" placeholder=\"Search\" />\n";
+echo "      </form>\n";
+echo "    </section>\n";
+echo "\n";
+echo "    <!-- Menu -->\n";
+echo "    <nav id=\"menu\">\n";
+echo "      <header class=\"major\">\n";
+echo "        <h2>Menu</h2>\n";
+echo "      </header>\n";
+echo "      <ul>\n";
+echo "        <li><a href=\"index.html\">Homepage</a></li>\n";
+echo "        <li><a href=\"research.html\">Research</a></li>\n";
+echo "        <li><a href=\"publications.html\">Publication</a></li>\n";
+echo "        <li><a href=\"talk.html\">Talk</a></li>\n";
+echo "        <li><a href=\"student.html\">Student</a></li>\n";
+echo "        <li><a href=\"teaching.html\">Teaching</a></li>\n";
+echo "        <li><a href=\"calendar.html\">Calendar</a></li>\n";
+echo "      </ul>\n";
+echo "    </nav>\n";
+echo "\n";
+echo "    <!-- Section -->\n";
+echo "    <section>\n";
+echo "      <header class=\"major\">\n";
+echo "        <h2>Get in touch</h2>\n";
+echo "      </header>\n";
+echo "      <p>The best way to reach me, generally, is via email. During the day, I am usually in my office.</p>\n";
+echo "      <ul class=\"contact\">\n";
+echo "        <li class=\"fa-envelope-o\">dingzhao@cmu.edu</li>\n";
+echo "        <li class=\"fa-phone\">412-268-3348</li>\n";
+echo "        <li class=\"fa-map-marker\">5000 Forbes Avenue<br /> Scaife Hall 315<br /> Pittsburgh, PA 15213</li>\n";
+echo "      </ul>\n";
+echo "    </section>\n";
+echo "\n";
+echo "    <!-- Footer -->\n";
+echo "    <footer id=\"footer\">\n";
+echo "      <p class=\"copyright\">© Ding Zhao. All rights reserved. Design: <a href=\"http://html5up.net\">HTML5 UP</a>.</p>\n";
+echo "    </footer>\n";
+echo "\n";
+echo "  </div>\n";
+echo "</div>\n";
