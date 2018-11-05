@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by Ding Zhao
+	zhaoding@umich.edu
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Ding Zhao's Website</title>
+	<meta name="author" content="Ding Zhao">
+	<meta name="keywords" content="ding,zhao,ding zhao,zhaoding,cmu,carnegie,mellon,umich,michigan,umtri,transportation,automated,automated vehicle,av,intelligent,accelerated evaluation,connected,safety,DSRC">
+	<meta name="description" content="Ding Zhao umich Accelerated Evaluation">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<link rel="icon" href="assets/icon/cmu.ico" />
+</head>
+
+<body>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="index.html" class="logo"><strong>Highlighed
+									Research</strong></a>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/ding-zhao-01130730/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://scholar.google.com/citations?user=uirPPuYAAAAJ&hl=en" class="icon fa-graduation-cap"><span class="label">Scholar</span></a></li>
+						<li><a href="https://github.com/zhao-ding" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.strava.com/athletes/7560016" class="icon fa-heartbeat"><span class="label">Run</span></a></li>
+					</ul>
+				</header>
+
+				<!-- Content -->
+				<section>
+					<header class="main" id="primitive">
+						<h1>Scenario Based Traffic Data Library</h1>
+					</header>
+					<span class="image main"><img src="research/BigData_TrafficNet/bigdata_header.png" alt="" /></span>
+					<!-- <p>Extract Information from Big Traffic Data</p> -->
+
+					<h2>Unifing Heterogeneous Traffic Data using Traffic Primitives</h2>
+					<p><span class="image right"><img src="research/BigData_TrafficNet/unify.png" alt="" /></span>
+
+
+						<b>Jiacheng Zhu, Wenshuo Wang, <u>Ding Zhao</u>, ''A Tempt to Unify Heterogeneous Driving Databases using Traffic Primitives,'' <i>Proceedings of the IEEE 21th International Intelligent Transportation Systems Conference (<b>ITSC</b>)</i>, Maui Hawaii, US, November
+						4-8, 2018.
+						</b>&nbsp;|
+						<a href="https://arxiv.org/abs/1805.04925" target="_blank"><i class="icon fa-file-pdf-o"></i></a>
+						<a href="https://scholar.google.co.in/citations?user=rKUnBPgAAAAJ&hl=fr#d=gs_md_cita-d&p=&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Dfr%26user%3DrKUnBPgAAAAJ%26citation_for_view%3DrKUnBPgAAAAJ%3Au5HHmVD_uO8C%26tzom%3D600"><i class="icon fa-graduation-cap"></i></a>
+						<br /><br />
+
+
+						<i>Abstract</i> &mdash; A multitude of publicly-available driving datasets and data platforms have been raised for autonomous vehicles (AV). However, the heterogeneities of databases in size, structure and driving context make existing datasets practically ineffective due to a lack of uniform frameworks and searchable indexes. In order to overcome these limitations on existing public datasets, this paper proposes a data unification framework based on traffic primitives with ability to automatically unify and label heterogeneous traffic data. This is achieved by two steps: 1)Carefully arrange raw multidimensional time series driving data into a relational database and then 2) automatically extract labeled and indexed traffic primitives from traffic data through a Bayesian nonparametric learning method. Finally, we evaluate the effectiveness of our developed framework using the collected real vehicle data. </p>
+
+						<i>Trip, Scenario, Primitive</i>-
+						In order to explicitly represent autonomous driving data, three terms as <u>Trip</u>, <u>Scenario</u> and <u>Primitive</u> are used to describe driving behavior based from different scale of view. 
+						Trip, It is used to describe the partial of data during which the sensor are collecting data continuously. Usually, one dataset contains at least one trip. Due to the continuity, some attributes like driving environment, weather and road condition do not change rapidly.
+						Scenario, Common $scenarios$ can be found from different datasets. Scenarios do not vary a lot from driving environments, road conditions or vehicle and sensor configuration. Usually, a trip contains a set of scenarios.
+						Primitive, Primitive is the smallest element of driving data. It is the result of HDP-HSMM which . Scenarios are composed by primitives. 
+						</p>
+
+					<br />
+
+					<hr class="major" />
+					<h2 id="trafficnet">TrafficNet: An Open Naturalistic Driving Scenario Library</h2>
+					<p><span class="image right"><img src="research/CAVData/TrafficNet.png" alt="" /></span>
+
+
+						<b><u>Ding Zhao</u>, Yaohui Guo, Yunhan Jack Jia, ''TrafficNet: An Open Naturalistic Driving Scenario Library, '' <i>Proceedings of the IEEE 20th International Intelligent Transportation Systems Conference (<b>ITSC</b>)</i>, Yokohama, Japan, October
+						16-19, 2017.
+						</b>&nbsp;|
+						<a href="https://arxiv.org/abs/1708.01872" target="_blank"><i class="icon fa-file-pdf-o"></i></a>
+						<a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uirPPuYAAAAJ&citation_for_view=uirPPuYAAAAJ:cWzG1nlazyYC"><i class="icon fa-graduation-cap"></i></a>
+						<a href="https://github.com/TrafficNet"><i class="fa fa-github"></i></a>
+						<br /><br />
+
+
+						<i>Abstract</i> &mdash; The enormous efforts spent on collecting naturalistic driving data in the recent years has resulted in an expansion of publicly available traffic datasets, which has the potential to assist the development of the self-driving
+						vehicles. However, we found that many of the attempts to utilize these datasets have failed in practice due to a lack of usability concern from the organizations that host these collected data. For example, extracting data associated with certain
+						critical conditions from naturalistic driving data organized in chronological order may not be convenient for a vehicle engineer that doesn't have big data analytics experiences. To address the general usability challenges of these publicly available
+						traffic datasets, we propose TrafficNet, a large-scale and extensible library of naturalistic driving scenarios, aiming at bridging the gap between research datasets and practically usable information for vehicle engineers and researchers. The proposed
+						web-based driving scenario database preprocesses massive raw traffic data collected in chronological order into an organized scenario-based dataset by applying a set of categorization algorithms to label the naturalistic driving data with six different
+						critical driving scenarios. TrafficNet opens not only the scenario library but also the source code of these categorization methods to the public, which will foster more sophisticated and accurate scenario-based categorization algorithms to advance
+						the intelligent transportation research. The source code and the scenario database can be accessed at https://github.com/TrafficNet.</p>
+
+					
+
+
+				</section>
+
+			</div>
+		</div>
+
+		<!-- Sidebar -->
+		<div id="sidebar">
+			<div class="inner">
+
+				<!-- Search -->
+				<section id="search" class="alt">
+					<form method="post" action="#">
+						<input type="text" name="query" id="query" placeholder="Search" />
+					</form>
+				</section>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<header class="major">
+						<h2>Menu</h2>
+					</header>
+					<ul>
+						<li><a href="index.html">Homepage</a></li>
+						<li><a href="research.html">Research</a></li>
+						<li><a href="publications.html">Publication</a></li>
+						<li><a href="talk.html">Talk</a></li>
+						<li><a href="student.html">Student</a></li>
+						<li><a href="calendar.html">Calendar</a></li>
+					</ul>
+				</nav>
+
+				<!-- Section -->
+				<section>
+					<header class="major">
+						<h2>Get in touch</h2>
+					</header>
+					<p>The best way to reach me, generally, is via email. During the day, I am usually in my office.</p>
+					<ul class="contact">
+						<li class="fa-envelope-o">dingzhao@cmu.edu</li>
+						<li class="fa-phone">412-268-3348</li>
+						<li class="fa-map-marker">5000 Forbes Avenue<br /> Scaife Hall 315<br /> Pittsburgh, PA 15213</li>
+					</ul>
+				</section>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<p class="copyright">&copy; Ding Zhao. All rights reserved. Design: <a href="http://html5up.net">HTML5 UP</a>.</p>
+				</footer>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-85426991-2', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+</body>
+
+</html>
