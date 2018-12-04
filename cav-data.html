@@ -44,10 +44,129 @@
 				<!-- Content -->
 				<section>
 					<header class="main" id="primitive">
-						<h1>Learn the Driving Environment</h1>
+						<h1>Understand the Traffic Primitives of Driving Environment</h1>
 					</header>
 					<span class="image main"><img src="research/CAVData/header.png" alt="" /></span>
 					<!-- <p>Extract Information from Big Traffic Data</p> -->
+
+
+
+					<h2>Understanding Vehicle-to-Vehicle Encounter Scenarios through Machine Learning Approaches</h2>
+					<p><span class="image right"><img src="research/CAVData/encounter_map.png" alt="" /></span>
+
+
+						<b>Wenshuo Wang, Weiyang Zhang, <u>Ding Zhao</u>, ''Understanding V2V Driving Scenarios through Traffic Primitives,''<i> Transportation Research Part C: Emerging Technologies</i>, 2018.
+						</b>&nbsp;|
+						<a href="https://arxiv.org/abs/1807.10422" target="_blank"><i class="icon fa-file-pdf-o"></i></a>
+						<a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Understanding+V2V+Driving+Scenarios+through+Traffic+Primitives"><i class="icon fa-graduation-cap"></i></a>
+						<br /><br />
+
+						<b>Wenshuo Wang, Aditya Ramesh, <u>Ding Zhao</u>, ''Clustering of Driving Scenarios Using Connected Vehicle Datasets,''<i>IEEE Transactions on Intelligent Transportation Systems</i>, 2018.
+													</b>&nbsp;|
+						<a href="https://arxiv.org/abs/1807.08415" target="_blank"><i class="icon fa-file-pdf-o"></i></a>
+						<a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Clustering+of+driving+scenarios+using+connected+vehicle+datasets"><i class="icon fa-graduation-cap"></i></a>
+						<br /><br />
+
+						<i>Abstract</i> &mdash; —Semantically understanding complex drivers’ encountering
+						behavior, wherein two or multiple vehicles are spatially
+						close to each other, does potentially benefit autonomous
+						car’s decision-making design. This paper presents a framework of
+						analyzing various encountering behaviors through decomposing
+						driving encounter data into small building blocks, called driving
+						primitives, using nonparametric Bayesian learning (NPBL) approaches,
+						which offers a flexible way to gain an insight into the
+						complex driving encounters without any prerequisite knowledge.
+						The effectiveness of our proposed primitive-based framework
+						is validated based on 976 naturalistic driving encounters, from
+						which more than 4000 driving primitives are learned using NPBL
+						– a sticky HDP-HMM, combined a hidden Markov model (HMM)
+						with a hierarchical Dirichlet process (HDP). After that, a dynamic
+						time warping method integrated with k-means clustering is then
+						developed to cluster all these extracted driving primitives into
+						groups. Experimental results find that there exist 20 kinds of
+						driving primitives capable of representing the basic components
+						of driving encounters in our database. This primitive-based
+						analysis methodology potentially reveals underlying information
+						of vehicle-vehicle encounters for self-driving applications.</p>
+					<br />
+
+
+					<hr class="major" />
+					<h2>Generate Multi-Vehicle Trajectories for Vehicle-to-Vehicle Encounters using Generative Adversarial Networks (GANs) </h2>
+					<p><span class="image right"><img src="research/CAVData/encounter_gan.png" alt="" /></span>
+
+
+						<b>Wenhao Ding, Wenshuo Wang, <u>Ding Zhao</u>, ''Multi-Vehicle Trajectories Generation for Vehicle-to-Vehicle Encounters,''<i> arXiv preprint arXiv:1809.056802018</i>, 2018.
+						</b>&nbsp;|
+						<a href="https://arxiv.org/abs/1809.05680" target="_blank"><i class="icon fa-file-pdf-o"></i></a>
+						<a href="https://scholar.google.com/scholar?hl=en&q=Multi-Vehicle+Trajectories+Generation+for+Vehicle-to-Vehicle+Encounters"><i class="icon fa-graduation-cap"></i></a>
+						<br /><br />
+
+						<i>Abstract</i> &mdash; Generating multi-vehicle trajectories analogous to
+						these in real world can provide reliable and versatile testing
+						scenarios for autonomous vehicles. This paper presents an
+						unsupervised learning framework to achieve this. First, we
+						implement variational autoencoder (VAE) to extract interpretable
+						and controllable representations of vehicle encounter
+						trajectory. Through sampling from the distribution of these
+						representations, we are able to generate new meaningful driving
+						encounters with a developed Multi-Vehicle Trajectory Generator
+						(MTG). A new disentanglement metric is also proposed to
+						comprehensively analyze and compare models. It can reveal the
+						robustness of models and the dependency among latent codes,
+						thus providing guidance for practical application to improve
+						system performance. Experimental results demonstrate that
+						our proposed MTG outperforms baselines in terms of traffic
+						rationality and disentanglement. These generative samples can
+						provide abundant and controllable driving scenarios, thus providing
+						testbeds and algorithm design insights for autonomous
+						vehicle development.</p>
+					<br />
+
+
+					<h2>Unifing Heterogeneous Traffic Data using Traffic Primitives</h2>
+					<p><span class="image right"><img src="research/BigData_TrafficNet/unify.png" alt="" /></span>
+
+
+						<b>Jiacheng Zhu, Wenshuo Wang, <u>Ding Zhao</u>, ''A Tempt to Unify Heterogeneous Driving Databases using Traffic Primitives,'' <i>Proceedings of the IEEE 21th International Intelligent Transportation Systems Conference (<b>ITSC</b>)</i>, Maui Hawaii, US, November
+						4-8, 2018.
+						</b>&nbsp;|
+						<a href="https://arxiv.org/abs/1805.04925" target="_blank"><i class="icon fa-file-pdf-o"></i></a>
+						<a href="https://scholar.google.co.in/citations?user=rKUnBPgAAAAJ&hl=fr#d=gs_md_cita-d&p=&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Dfr%26user%3DrKUnBPgAAAAJ%26citation_for_view%3DrKUnBPgAAAAJ%3Au5HHmVD_uO8C%26tzom%3D600"><i class="icon fa-graduation-cap"></i></a>
+						<br /><br />
+
+
+						<i>Abstract</i> &mdash; A multitude of publicly-available driving datasets and data platforms have been raised for autonomous vehicles (AV). However, the heterogeneities of databases in size, structure and driving context make existing datasets practically ineffective due to a lack of uniform frameworks and searchable indexes. In order to overcome these limitations on existing public datasets, this paper proposes a data unification framework based on traffic primitives with ability to automatically unify and label heterogeneous traffic data. This is achieved by two steps: 1)Carefully arrange raw multidimensional time series driving data into a relational database and then 2) automatically extract labeled and indexed traffic primitives from traffic data through a Bayesian nonparametric learning method. Finally, we evaluate the effectiveness of our developed framework using the collected real vehicle data. </p>
+
+						<i>Trip, Scenario, Primitive</i>-
+						In order to explicitly represent autonomous driving data, three terms as <u>Trip</u>, <u>Scenario</u> and <u>Primitive</u> are used to describe driving behavior based from different scale of view. 
+						Trip, It is used to describe the partial of data during which the sensor are collecting data continuously. Usually, one dataset contains at least one trip. Due to the continuity, some attributes like driving environment, weather and road condition do not change rapidly.
+						Scenario, Common $scenarios$ can be found from different datasets. Scenarios do not vary a lot from driving environments, road conditions or vehicle and sensor configuration. Usually, a trip contains a set of scenarios.
+						Primitive, Primitive is the smallest element of driving data. It is the result of HDP-HSMM which . Scenarios are composed by primitives. 
+						</p>
+					<br />
+
+
+
+
+					<h2>Fuel Economy and Emission Testing for Connected and Automated Vehicles</h2>
+					<p><span class="image right"><img src="research/CAVData/primitive_fuel.png" alt="" /></span>
+
+
+						<b>Yan Chang, Weiqing Yang, <u>Ding Zhao</u>, ''Fuel Economy and Emission Testing for Connected and Automated Vehicles Using Real-world Driving Datasets,'' <i>Proceedings of the IEEE 21st International Intelligent Transportation Systems Conference (<b>ITSC</b>)</i>, Maui Hawaii, US, November
+						4-8, 2018.
+						</b>&nbsp;|
+						<a href="https://arxiv.org/abs/1805.07643" target="_blank"><i class="icon fa-file-pdf-o"></i></a>
+						<a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Fuel+Economy+and+Emission+Testing+for+Connected+and+Automated+Vehicles+Using+Real-world+Driving+Datasets"><i class="icon fa-graduation-cap"></i></a>
+						<br /><br />
+
+
+						<i>Abstract</i> &mdash; By using the onboard sensing and external connectivity technology, connected and automated vehicles (CAV) could lead to improved energy efficiency, better routing, and lower traffic congestion. With the rapid development of the technology and adaptation of CAV, it is more critical to develop the universal evaluation method and the testing standard which could evaluate the impacts on energy consumption and environmental pollution of CAV fairly, especially under the various traffic conditions. In this paper, we proposed a new method and framework to evaluate the energy efficiency and emission of the vehicle based on the unsupervised learning methods. Both the real-world driving data of the evaluated vehicle and the large naturalistic driving dataset are used to perform the driving primitive analysis and coupling. Then the linear weighted estimation method could be used to calculate the testing result of the evaluated vehicle. The results show that this method can successfully identify the typical driving primitives. The couples of the driving primitives from the evaluated vehicle and the typical driving primitives from the large real-world driving dataset coincide with each other very well. This new method could enhance the standard development of the energy efficiency and emission testing of CAV and other off-cycle credits.
+						</p>
+
+
+
+
 
 					<h2>Traffic Primitives: Extract Fundamentional Traffic Elements using Bayesian Unsupervised Learning</h2>
 					<p><span class="image right"><img src="research/CAVData/PrimitiveExtraction.png" alt="" /></span>
@@ -75,6 +194,10 @@
 						nonparametric Bayesian learning method extracts primitives from traffic scenarios where both the binary and continuous events coexist.</p>
 					<br />
 
+
+
+
+
 					<hr class="major" />
 					<h2 id="trafficnet">TrafficNet: An Open Naturalistic Driving Scenario Library</h2>
 					<p><span class="image right"><img src="research/CAVData/TrafficNet.png" alt="" /></span>
@@ -97,8 +220,10 @@
 						critical driving scenarios. TrafficNet opens not only the scenario library but also the source code of these categorization methods to the public, which will foster more sophisticated and accurate scenario-based categorization algorithms to advance
 						the intelligent transportation research. The source code and the scenario database can be accessed at https://github.com/TrafficNet.</p>
 
-					<hr class="major" />
 
+
+
+					<hr class="major" />
 					<h2>Evaluation of Connected Vehicle Communication with Three-year Real World Data</h2>
 					<p><span class="image right"><img src="research/CAVData/DSRC.png" alt="" /></span>
 
